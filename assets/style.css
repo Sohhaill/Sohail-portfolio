@@ -1,7 +1,3 @@
-@font-face {
-    font-family: 'Fira-Code';
-    src: url('assets/font/Gagalin-Regular.woff') format('woff');
-}
 
 html {
     scroll-behavior: smooth;
@@ -48,10 +44,7 @@ html {
     pointer-events: none;
 }
 
-.sh_blackoverlay {
-    background: url('/assets/images/social-media-expert-4.png');
-    background-size: cover;
-}
+
 
 .banneroverlay {
     position: absolute;
