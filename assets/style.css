@@ -94,7 +94,7 @@ a {
     cursor: pointer;
 }
 
-.skill_image:hover path {
+.logo_each:hover path {
     fill: #FC6C07
 }
 
@@ -137,4 +137,20 @@ span#typewriter {
 
 .menu_each {
     width: 159px !important;
+}
+
+
+.scroll-track {
+  display: flex;
+  flex-direction: column;
+  animation: scroll-loop 10s linear infinite;
+}
+
+@keyframes scroll-loop {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
 }
