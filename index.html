@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sohail Dev</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Cinzel+Decorative:wght@400;700;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lustria&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Cinzel+Decorative:wght@400;700;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lustria&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="sh_blackoverlay">
+    <header class="pt-[40px]">
+      <nav class="container flex justify-between items-center">
+        <div class="sh_logo">
+          <img src="assets/images/Social Media Expert (3).png" class="w-[90px]  md:w-[175px]  object-contain">
+        </div>
+        <div class="menu hidden lg:flex">
+          <a href="#Companies"
+            class="menu_each justify-center  relative flex flex-col group overflow-hidden cursor-pointer items-center">
+
+            <div
+              class="nav__link-dot absolute left-2 bg-[#ff6b03] w-[0.5em] h-[0.5em] rounded-full transform scale-0 transition-transform duration-300 group-hover:scale-100">
+            </div>
+
+            <div
+              class="heading_font static_menu text-[13px] text-white transform transition-transform duration-500 ease-in-out group-hover:-translate-y-7">
+              Companies
+            </div>
+
+            <div
+              class="heading_font absolute_menu text-[13px] absolute top-0 left-[13%] text-white transform transition-transform duration-500 ease-in-out translate-y-full group-hover:translate-y-0">
+              Companies
+            </div>
+
+          </a>
+          <a href="#my_self"
+            class="menu_each justify-center  relative flex flex-col group overflow-hidden cursor-pointer items-center">
+
+            <div
+              class="nav__link-dot absolute left-2 bg-[#ff6b03] w-[0.5em] h-[0.5em] rounded-full transform scale-0 transition-transform duration-300 group-hover:scale-100">
+            </div>
+
+            <div
+              class="heading_font static_menu text-[13px] text-white transform transition-transform duration-500 ease-in-out group-hover:-translate-y-7">
+              My Self
+            </div>
+
+            <div
+              class="heading_font absolute_menu text-[13px] absolute top-0 left-[13%] text-white transform transition-transform duration-500 ease-in-out translate-y-full group-hover:translate-y-0">
+              My Self
+            </div>
+
+          </a>
+          <a href="#skills"
+            class="menu_each justify-center  relative flex flex-col group overflow-hidden cursor-pointer items-center">
+
+            <div
+              class="nav__link-dot absolute left-2 bg-[#ff6b03] w-[0.5em] h-[0.5em] rounded-full transform scale-0 transition-transform duration-300 group-hover:scale-100">
+            </div>
+
+            <div
+              class="heading_font static_menu text-[13px] text-white transform transition-transform duration-500 ease-in-out group-hover:-translate-y-7">
+              Skills
+            </div>
+
+            <div
+              class="heading_font absolute_menu text-[13px] absolute top-0 left-[13%] text-white transform transition-transform duration-500 ease-in-out translate-y-full group-hover:translate-y-0">
+              Skills
+            </div>
+
+          </a>
+          <a href="#projects"
+            class="menu_each justify-center  relative flex flex-col group overflow-hidden cursor-pointer items-center">
+
+            <div
+              class="nav__link-dot absolute left-2 bg-[#ff6b03] w-[0.5em] h-[0.5em] rounded-full transform scale-0 transition-transform duration-300 group-hover:scale-100">
+            </div>
+
+            <div
+              class="heading_font static_menu text-[13px] text-white transform transition-transform duration-500 ease-in-out group-hover:-translate-y-7">
+              projects
+            </div>
+
+            <div
+              class="heading_font absolute_menu text-[13px] absolute top-0 left-[13%] text-white transform transition-transform duration-500 ease-in-out translate-y-full group-hover:translate-y-0">
+              projects
+            </div>
+
+          </a>
+        </div>
+        <a  href="mailto:yourname@gmail.com"
+          class="hover:scale-105 px-8 py-4 lg:inline hidden text-center w-fit text-white text-[16px] font-semibold uppercase rounded-full shadow-md transition-colors duration-300 bg-[#15151880] border border-[#474753] hover:bg-[#fc6c07]">
+          Contact Me
+        </a>
+<div class="hamburger relative z-50 lg:hidden block">
+  <!-- Hamburger Icon -->
+  <div id="menuToggle" class="cursor-pointer">
+    <svg class="w-[60px] text-white" viewBox="0 -0.5 25 25" fill="white" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5.5 9.25H19.5V7.75H5.5V9.25ZM5.5 13.25H17.5V11.75H5.5V13.25ZM5.5 17.25H12.5V15.75H5.5V17.25Z" />
+    </svg>
+  </div>
+
+  <!-- Sliding Mobile Menu -->
+  <div id="mobileMenu"
+       class="fixed flex flex-col top-0 right-0 w-[80%] h-screen bg-black text-white transform translate-x-full transition-transform duration-500 ease-in-out shadow-lg">
+    
+    <!-- Close Icon -->
+    <div id="closeMenu" class="p-4 cursor-pointer">
+      <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </div>
+
+    <!-- Menu Items -->
+    <nav class="flex flex-col gap-6 items-start px-6 mt-10 text-xl">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+     <a  href="mailto:yourname@gmail.com"
+          class="hover:scale-105 mt-auto mb-[30px] ml-[24px] px-8 py-4 lg:hidden inline text-center w-fit text-white text-[16px] font-semibold uppercase rounded-full shadow-md transition-colors duration-300 bg-[#15151880] border border-[#474753] hover:bg-[#fc6c07]">
+          Contact Me
+        </a>
+  </div>
+</div>
+
+        </a>
+      </nav>
+    </header>
+
+    <section class="banner py-[60px] relative">
+      <img src="assets/images/Untitled design (4).png" class="w-full">
+      <div class="banneroverlay">
+        <div class="banner_inner_text w-[790px] h-[250px]" data-aos="fade-up">
+          <h1 class="text-white heading_font text-[40px] leading-[45px]">
+            <span id="typewriter"></span>
+          </h1>
+          <p class="mt-[20px]">Over 2 years of experience in customizing and creating Shopify and WordPress themes,
+            developing Ecommerce stores, and building websites using Elementor and WooCommerce.</p>
+        </div>
+      </div>
+         <a class="whatsapp fixed bottom-[40px] right-[30px]" href="https://wa.me/923175194705" target="_blank">
+      <svg  class="!w-[69px] hover:scale-105" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        fill="#000000">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <defs>
+            <path id="a"
+              d="M1023.941 765.153c0 5.606-.171 17.766-.508 27.159-.824 22.982-2.646 52.639-5.401 66.151-4.141 20.306-10.392 39.472-18.542 55.425-9.643 18.871-21.943 35.775-36.559 50.364-14.584 14.56-31.472 26.812-50.315 36.416-16.036 8.172-35.322 14.426-55.744 18.549-13.378 2.701-42.812 4.488-65.648 5.3-9.402.336-21.564.505-27.15.505l-504.226-.081c-5.607 0-17.765-.172-27.158-.509-22.983-.824-52.639-2.646-66.152-5.4-20.306-4.142-39.473-10.392-55.425-18.542-18.872-9.644-35.775-21.944-50.364-36.56-14.56-14.584-26.812-31.471-36.415-50.314-8.174-16.037-14.428-35.323-18.551-55.744-2.7-13.378-4.487-42.812-5.3-65.649-.334-9.401-.503-21.563-.503-27.148l.08-504.228c0-5.607.171-17.766.508-27.159.825-22.983 2.646-52.639 5.401-66.151 4.141-20.306 10.391-39.473 18.542-55.426C34.154 93.24 46.455 76.336 61.07 61.747c14.584-14.559 31.472-26.812 50.315-36.416 16.037-8.172 35.324-14.426 55.745-18.549 13.377-2.701 42.812-4.488 65.648-5.3 9.402-.335 21.565-.504 27.149-.504l504.227.081c5.608 0 17.766.171 27.159.508 22.983.825 52.638 2.646 66.152 5.401 20.305 4.141 39.472 10.391 55.425 18.542 18.871 9.643 35.774 21.944 50.363 36.559 14.559 14.584 26.812 31.471 36.415 50.315 8.174 16.037 14.428 35.323 18.551 55.744 2.7 13.378 4.486 42.812 5.3 65.649.335 9.402.504 21.564.504 27.15l-.082 504.226z">
+            </path>
+          </defs>
+          <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="512.001" y1=".978" x2="512.001" y2="1025.023">
+            <stop offset="0" stop-color="#ffffff"></stop>
+            <stop offset="1" stop-color="#ffffff"></stop>
+          </linearGradient>
+          <use xlink:href="#a" overflow="visible" fill="url(#b)"></use>
+          <g>
+            <path class="pathimportant" fill="black"
+              d="M783.302 243.246c-69.329-69.387-161.529-107.619-259.763-107.658-202.402 0-367.133 164.668-367.214 367.072-.026 64.699 16.883 127.854 49.017 183.522l-52.096 190.229 194.665-51.047c53.636 29.244 114.022 44.656 175.482 44.682h.151c202.382 0 367.128-164.688 367.21-367.094.039-98.087-38.121-190.319-107.452-259.706zM523.544 808.047h-.125c-54.767-.021-108.483-14.729-155.344-42.529l-11.146-6.612-115.517 30.293 30.834-112.592-7.259-11.544c-30.552-48.579-46.688-104.729-46.664-162.379.066-168.229 136.985-305.096 305.339-305.096 81.521.031 158.154 31.811 215.779 89.482s89.342 134.332 89.312 215.859c-.066 168.243-136.984 305.118-305.209 305.118zm167.415-228.515c-9.177-4.591-54.286-26.782-62.697-29.843-8.41-3.062-14.526-4.592-20.645 4.592-6.115 9.182-23.699 29.843-29.053 35.964-5.352 6.122-10.704 6.888-19.879 2.296-9.176-4.591-38.74-14.277-73.786-45.526-27.275-24.319-45.691-54.359-51.043-63.543-5.352-9.183-.569-14.146 4.024-18.72 4.127-4.109 9.175-10.713 13.763-16.069 4.587-5.355 6.117-9.183 9.175-15.304 3.059-6.122 1.529-11.479-.765-16.07-2.293-4.591-20.644-49.739-28.29-68.104-7.447-17.886-15.013-15.466-20.645-15.747-5.346-.266-11.469-.322-17.585-.322s-16.057 2.295-24.467 11.478-32.113 31.374-32.113 76.521c0 45.147 32.877 88.764 37.465 94.885 4.588 6.122 64.699 98.771 156.741 138.502 21.892 9.45 38.982 15.094 52.308 19.322 21.98 6.979 41.982 5.995 57.793 3.634 17.628-2.633 54.284-22.189 61.932-43.615 7.646-21.427 7.646-39.791 5.352-43.617-2.294-3.826-8.41-6.122-17.585-10.714z">
+            </path>
+          </g>
+        </g>
+      </svg>
+    </a>
+    </section>
+    <section id="Companies" class="relative py-16 px-4 text-white">
+
+
+      <!-- Content container -->
+      <div class="relative container mx-auto z-10" data-aos="fade-up">
+        <h2 class="text-4xl font-bold text-center mb-12 heading_font"> <span
+            class="text-[#FC6C07] font-bold">Companies</span> I've Worked With</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+          <!-- Company 1 -->
+          <div
+            class="misix relative rounded-xl p-6 text-center transition transform hover:-translate-y-1 hover:shadow-lg duration-300"
+            data-aos="fade-right">
+            <a href="https://mi6.global/" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/download.svg" alt="Company 1"
+                class="mx-auto w-[200px] h-auto mb-4 hover:scale-110 transition duration-300" />
+              <div
+                class="currently_working absolute top-[1px] px-4 py-3 text-white text-xs font-semibold uppercase rounded-full shadow-md transition-colors duration-300 bg-[#15151880] border border-[#474753] hover:bg-[#fc6c07]"
+                style="left: 24%; transform: rotate(-49deg);">
+                Currently Working
+              </div>
+
+
+
+
+            </a>
+            <h3 class="text-2xl font-semibold mt-5 mb-3 heading_font">Machine Intelligence 6</h3>
+            <p class="text-[16px] text-white mb-2 text-left">
+              <span class="text-[#FC6C07] font-bold">Machine Intelligence 6</span> is a marketing and business growth
+              agency where I am currently working as a WordPress and Shopify Developer, after leaving my previous
+              company, Digital 10X, in December 2024. Where I have created multiple Shopify and WordPress themes, with a
+              primary focus on WordPress theme development.
+            </p>
+
+            <p class="text-[16px] text-white mb-2 text-center">
+              <br> <span class="text-[#FC6C07] font-bold"> Location</span>: E11 Islamabd, Pakistan
+            </p>
+          </div>
+
+          <!-- Company 2 -->
+          <div
+            class="dten   rounded-xl p-6 text-center transition transform hover:-translate-y-1 hover:shadow-lg duration-300"
+            data-aos="fade-left">
+            <a href="https://digital10x.co.uk/" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/imgi_1_Digital10x-Logo-1.png" alt="Company 2"
+                class="mx-auto w-[200px] h-auto mb-4 hover:scale-110 transition duration-300" />
+            </a>
+            <h3 class="text-2xl font-semibold mt-5 mb-3 heading_font">Digital 10X</h3>
+            <p class="text-[16px] text-white mb-2 text-left">
+              <span class="text-[#FC6C07] font-bold"> Digital 10X </span>is a Shopify agency where I worked for 1.5
+              year, from Sep-2023 to Dec-2024 as a Shopify Developer. During my time there, I focused on Shopify theme
+              customization, Shopify Store development, WordPress website, Elementor And Woocommerace and creating
+              Shopify custom sections. I successfully delivered multiple custom projects, including a Dropshipping
+              store.
+            </p>
+            <p class="text-[16px] text-white mb-2 text-center">
+              <br> <span class="text-[#FC6C07] font-bold"> Location</span>: F11 Islamabd, Pakistan
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="my_self" class="py-16 px-4" data-aos="fade-up">
+      <h2 class="text-4xl font-bold text-white text-center mb-12 heading_font"> <span
+          class="text-[#FC6C07] font-bold">My</span> Self</h2>
+      <div class="container flex items-center justify-center gap-[20px]">
+        <img src="assets/skill_logo/Untitled design (7).png"
+          class="w-[25%] filter grayscale hover:grayscale-0 transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-xl rounded-xl" />
+        <div class="sohail_about flex flex-col gap-[20px] items-center justify-center">
+          <p class="text-center font-bold ">Hello, I'm</p>
+          <h1 class="text-[33px] leading-[38px] text-center heading_font text-white">Muhammad<br>Sohail</h1>
+          <p class="text-center font-bold ">WordPress & Shopify Developer</p>
+          <a href="assets/Shopify&Wordpress CV.pdf" download
+            class="hover:scale-105 px-8 py-4 text-center w-fit text-white text-[16px] font-semibold uppercase rounded-full shadow-md transition-colors duration-300 bg-[#15151880] border border-[#474753] hover:bg-[#fc6c07]">
+            Download CV
+          </a>
+
+          <div class="gitandlink flex items-center justify-start mt-[10px] gap-[20px]">
+            <a href="https://www.linkedin.com/in/muhammad-sohail-8261b1317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              class="linkdlen hover:scale-105">
+              <?xml version="1.0" encoding="utf-8"?>
+
+              <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="40px" height="40px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+                <g fill="none">
+
+                  <path
+                    d="M0 18.338C0 8.216 8.474 0 18.92 0h218.16C247.53 0 256 8.216 256 18.338v219.327C256 247.79 247.53 256 237.08 256H18.92C8.475 256 0 247.791 0 237.668V18.335z"
+                    fill="white" />
+
+                  <path class="pathimportant"
+                    d="M77.796 214.238V98.986H39.488v115.252H77.8zM58.65 83.253c13.356 0 21.671-8.85 21.671-19.91-.25-11.312-8.315-19.915-21.417-19.915-13.111 0-21.674 8.603-21.674 19.914 0 11.06 8.312 19.91 21.169 19.91h.248zM99 214.238h38.305v-64.355c0-3.44.25-6.889 1.262-9.346 2.768-6.885 9.071-14.012 19.656-14.012 13.858 0 19.405 10.568 19.405 26.063v61.65h38.304v-66.082c0-35.399-18.896-51.872-44.099-51.872-20.663 0-29.738 11.549-34.78 19.415h.255V98.99H99.002c.5 10.812-.003 115.252-.003 115.252z"
+                    fill="black" />
+
+                </g>
+
+              </svg>
+
+
+            </a>
+            <a href="https://github.com/Sohhaill" class="github hover:scale-105">
+              <?xml version="1.0" encoding="utf-8"?>
+
+              <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+              <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="40px" height="40px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="white">
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path
+                        d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                        id="github-[#142]">
+
+                      </path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+
+
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="skills" class="py-16 px-4" data-aos="fade-up">
+      <h2 class="text-4xl font-bold text-white text-center mb-12 heading_font"> My <span
+          class="text-[#FC6C07] font-bold">Skills</span></h2>
+
+      <div class="container mx-auto" data-aos="fade-up">
+        <div class="swiper skill">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="utf-8"?>
+
+              <svg width="100%" height="100%" viewBox="-18 0 292 292" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid">
+                <g class="shopify-bg">
+                  <path
+                    d="M223.774 57.34c-.201-1.46-1.48-2.268-2.537-2.357-1.055-.088-23.383-1.743-23.383-1.743s-15.507-15.395-17.209-17.099c-1.703-1.703-5.029-1.185-6.32-.805-.19.056-3.388 1.043-8.678 2.68-5.18-14.906-14.322-28.604-30.405-28.604-.444 0-.901.018-1.358.044C129.31 3.407 123.644.779 118.75.779c-37.465 0-55.364 46.835-60.976 70.635-14.558 4.511-24.9 7.718-26.221 8.133-8.126 2.549-8.383 2.805-9.45 10.462C21.3 95.806.038 260.235.038 260.235l165.678 31.042 89.77-19.42S223.973 58.8 223.775 57.34zM156.49 40.848l-14.019 4.339c.005-.988.01-1.96.01-3.023 0-9.264-1.286-16.723-3.349-22.636 8.287 1.04 13.806 10.469 17.358 21.32zm-27.638-19.483c2.304 5.773 3.802 14.058 3.802 25.238 0 .572-.005 1.095-.01 1.624-9.117 2.824-19.024 5.89-28.953 8.966 5.575-21.516 16.025-31.908 25.161-35.828zm-11.131-10.537c1.617 0 3.246.549 4.805 1.622-12.007 5.65-24.877 19.88-30.312 48.297l-22.886 7.088C75.694 46.16 90.81 10.828 117.72 10.828z"
+                    fill="white" />
+                  <path
+                    d="M221.237 54.983c-1.055-.088-23.383-1.743-23.383-1.743s-15.507-15.395-17.209-17.099c-.637-.634-1.496-.959-2.394-1.099l-12.527 256.233 89.762-19.418S223.972 58.8 223.774 57.34c-.201-1.46-1.48-2.268-2.537-2.357"
+                    fill="white" />
+                </g>
+                <path class="pathimportant"
+                  d="M135.242 104.585l-11.069 32.926s-9.698-5.176-21.586-5.176c-17.428 0-18.305 10.937-18.305 13.693 0 15.038 39.2 20.8 39.2 56.024 0 27.713-17.577 45.558-41.277 45.558-28.44 0-42.984-17.7-42.984-17.7l7.615-25.16s14.95 12.835 27.565 12.835c8.243 0 11.596-6.49 11.596-11.232 0-19.616-32.16-20.491-32.16-52.724 0-27.129 19.472-53.382 58.778-53.382 15.145 0 22.627 4.338 22.627 4.338"
+                  fill="black" />
+              </svg>
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">Shopify</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="100%" height="100%" viewBox="0 -0.5 256 256" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin meet">
+                <path
+                  d="M18.124 127.5c0 43.296 25.16 80.711 61.646 98.442L27.594 82.986a108.965 108.965 0 0 0-9.47 44.514zm183.221-5.52c0-13.517-4.856-22.879-9.02-30.165-5.545-9.01-10.742-16.64-10.742-25.65 0-10.055 7.626-19.415 18.368-19.415.485 0 .944.06 1.417.088-19.46-17.829-45.387-28.714-73.863-28.714-38.213 0-71.832 19.606-91.39 49.302 2.566.077 4.984.13 7.039.13 11.44 0 29.15-1.387 29.15-1.387 5.897-.348 6.592 8.312.702 9.01 0 0-5.926.697-12.52 1.042L100.32 194.7l23.937-71.79-17.042-46.692c-5.89-.345-11.47-1.042-11.47-1.042-5.894-.346-5.203-9.358.691-9.01 0 0 18.064 1.388 28.811 1.388 11.44 0 29.151-1.388 29.151-1.388 5.9-.348 6.594 8.312.702 9.01 0 0-5.938.697-12.52 1.042l39.529 117.581 10.91-36.458c4.728-15.129 8.327-25.995 8.327-35.36zm-71.921 15.088l-32.818 95.363a109.376 109.376 0 0 0 30.899 4.456c12.737 0 24.952-2.202 36.323-6.2a9.605 9.605 0 0 1-.779-1.507l-33.625-92.112zm94.058-62.045c.47 3.484.737 7.224.737 11.247 0 11.1-2.073 23.577-8.317 39.178l-33.411 96.6c32.518-18.963 54.39-54.193 54.39-94.545.002-19.017-4.856-36.9-13.4-52.48zM127.505 0C57.2 0 0 57.196 0 127.5c0 70.313 57.2 127.507 127.505 127.507 70.302 0 127.51-57.194 127.51-127.507C255.014 57.196 197.808 0 127.506 0zm0 249.163c-67.08 0-121.659-54.578-121.659-121.663 0-67.08 54.576-121.654 121.659-121.654 67.078 0 121.652 54.574 121.652 121.654 0 67.085-54.574 121.663-121.652 121.663z"
+                  fill="white" />
+              </svg>
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">WordPress</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="utf-8"?>
+              <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg fill="white" width="100%" height="100%" viewBox="0 0 32 32" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>html5</title>
+                <path
+                  d="M11.677 13.196l-0.289-3.387 12.536 0.004 0.287-3.268-16.421-0.004 0.87 9.983h11.374l-0.406 4.27-3.627 1.002-3.683-1.009-0.234-2.63h-3.252l0.411 5.198 6.757 1.807 6.704-1.798 0.927-10.166h-11.954zM2.914 1.045h26.172l-2.38 26.874-10.734 3.037-10.673-3.038z">
+                </path>
+              </svg>
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">Html</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="iso-8859-1"?>
+              <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+              <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg fill="white" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 512 512"
+                enable-background="new 0 0 512 512" xml:space="preserve">
+
+                <g id="c133de6af664cd4f011a55de6b001b19">
+
+                  <path display="inline" d="M483.111,0.501l-42.59,461.314l-184.524,49.684L71.47,461.815L28.889,0.501H483.111z M397.29,94.302
+		H255.831H111.866l6.885,55.708h137.08h7.7l-7.7,3.205l-132.07,55.006l4.38,54.453l127.69,0.414l68.438,0.217l-4.381,72.606
+		l-64.058,18.035v-0.057l-0.525,0.146l-61.864-15.617l-3.754-45.07h-0.205H132.1h-0.202l7.511,87.007l116.423,34.429v-0.062
+		l0.21,0.062l115.799-33.802l15.021-172.761h-131.03h-0.323l0.323-0.14l135.83-58.071L397.29,94.302z">
+
+                  </path>
+
+                </g>
+
+              </svg>
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">CSS</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+              <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="100%" height="100%" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                <title>javascript [#155]</title>
+                <desc>Created with Sketch.</desc>
+                <defs>
+
+                </defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Dribbble-Light-Preview" transform="translate(-420.000000, -7479.000000)" fill="white">
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path
+                        d="M379.328,7337.432 C377.583,7337.432 376.455,7336.6 375.905,7335.512 L375.905,7335.512 L377.435,7334.626 C377.838,7335.284 378.361,7335.767 379.288,7335.767 C380.066,7335.767 380.563,7335.378 380.563,7334.841 C380.563,7334.033 379.485,7333.717 378.724,7333.391 C377.368,7332.814 376.468,7332.089 376.468,7330.558 C376.468,7329.149 377.542,7328.075 379.221,7328.075 C380.415,7328.075 381.275,7328.491 381.892,7329.578 L380.429,7330.518 C380.107,7329.941 379.758,7329.713 379.221,7329.713 C378.67,7329.713 378.321,7330.062 378.321,7330.518 C378.321,7331.082 378.67,7331.31 379.476,7331.659 C381.165,7332.383 382.443,7332.952 382.443,7334.814 C382.443,7336.506 381.114,7337.432 379.328,7337.432 L379.328,7337.432 Z M375,7334.599 C375,7336.546 373.801,7337.575 372.136,7337.575 C370.632,7337.575 369.731,7337 369.288,7336 L369.273,7336 L369.266,7336 L369.262,7336 L370.791,7334.931 C371.086,7335.454 371.352,7335.825 371.996,7335.825 C372.614,7335.825 373,7335.512 373,7334.573 L373,7328 L375,7328 L375,7334.599 Z M364,7339 L384,7339 L384,7319 L364,7319 L364,7339 Z"
+                        id="javascript-[#155]">
+
+                      </path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">javascript</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="iso-8859-1"?>
+              <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+              <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg fill="white" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 512 512"
+                enable-background="new 0 0 512 512" xml:space="preserve">
+
+                <g id="5151e0c8492e5103c096af88a51e2ea6">
+
+                  <path display="inline" d="M401.054,224c3.714,4.115,4.595,11.181,2.653,21.19c-2.029,10.425-5.935,17.862-11.723,22.32
+		c-5.793,4.458-14.602,6.687-26.432,6.687h-17.849l10.957-56.37h20.103C389.913,217.827,397.34,219.886,401.054,224z
+		 M149.754,217.827h-20.103l-10.958,56.37h17.848c11.827,0,20.639-2.229,26.432-6.687c5.789-4.458,9.694-11.896,11.723-22.32
+		c1.942-10.01,1.06-17.075-2.653-21.19C168.33,219.886,160.903,217.827,149.754,217.827z M511.5,256
+		c0,74.229-114.393,134.403-255.5,134.403S0.5,330.229,0.5,256c0-74.228,114.393-134.403,255.5-134.403S511.5,181.772,511.5,256z
+		 M198.542,265.286c3.04-5.448,5.203-11.461,6.483-18.037c3.102-15.967,0.761-28.403-7.024-37.313
+		c-7.781-8.91-20.165-13.363-37.136-13.363h-56.423L78.265,331.261h29.342l6.958-35.805h25.134c11.087,0,20.21-1.164,27.372-3.497
+		c7.161-2.329,13.669-6.233,19.528-11.719C191.514,275.72,195.493,270.738,198.542,265.286z M301.814,295.456l12.181-62.682
+		c2.479-12.747,0.619-21.971-5.572-27.664c-6.196-5.688-17.449-8.537-33.768-8.537h-25.933l6.961-35.81h-29.11l-26.182,134.692
+		h29.11l14.996-77.165h23.267c7.448,0,12.317,1.232,14.604,3.698c2.287,2.467,2.773,7.091,1.455,13.869l-11.581,59.598H301.814z
+		 M427.011,209.937c-7.78-8.91-20.164-13.363-37.135-13.363h-56.424l-26.178,134.688h29.343l6.957-35.805h25.135
+		c11.086,0,20.21-1.164,27.371-3.497c7.161-2.329,13.669-6.233,19.528-11.719c4.92-4.521,8.896-9.502,11.943-14.954
+		c3.044-5.448,5.202-11.461,6.483-18.037C437.137,231.282,434.796,218.846,427.011,209.937z">
+
+                  </path>
+
+                </g>
+
+              </svg>
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">PHP</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg fill="white" width="100%" height="100%" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16 0c-8.839 0-16 7.161-16 16s7.161 16 16 16c8.839 0 16-7.161 16-16s-7.161-16-16-16zM9.281 10.24c1.005 0 1.787 0.733 1.875 1.599 0.095 0.781-0.229 1.464-1.093 1.875-0.459 0.229-0.641 0.229-0.735 0.093-0.047-0.093 0-0.181 0.093-0.276 0.824-0.681 0.824-1.233 0.729-2.009-0.047-0.505-0.411-0.824-0.776-0.824-1.604 0-3.885 3.563-3.568 6.172 0.141 1.005 0.735 2.193 2.011 2.193 0.412 0 0.871-0.136 1.281-0.317 0.667-0.355 1.068-0.625 1.464-1.068-0.099-1.183 0.937-2.729 2.468-2.729 0.688 0 1.235 0.276 1.281 0.781 0.089 0.683-0.505 0.776-0.687 0.776-0.183 0-0.505-0.047-0.505-0.229-0.041-0.183 0.411-0.093 0.369-0.505-0.047-0.276-0.323-0.364-0.593-0.364-0.964 0-1.511 1.328-1.375 2.145 0.047 0.369 0.228 0.735 0.599 0.735 0.271 0 0.683-0.412 0.817-1.005 0.093-0.412 0.459-0.688 0.781-0.688 0.136 0 0.224 0.047 0.271 0.229v0.183c-0.041 0.183-0.183 0.735-0.135 0.869 0 0.095 0.047 0.229 0.228 0.229 0.12 0 0.579-0.24 1.037-0.615 0.151-0.787 0.333-1.729 0.333-1.807 0.047-0.323 0.183-0.641 0.823-0.641 0.14 0 0.229 0.047 0.276 0.229v0.183l-0.183 0.823c0.595-0.776 1.464-1.323 2.011-1.323 0.229 0 0.412 0.135 0.412 0.364 0 0.136 0 0.365-0.095 0.595-0.181 0.5-0.411 1.281-0.547 1.963 0 0.183 0.047 0.365 0.276 0.365s0.912-0.271 1.459-1.005l0.011-0.005c0-0.089-0.011-0.177-0.011-0.265 0-0.552 0.047-1.005 0.141-1.328 0.093-0.365 0.547-0.683 0.823-0.683 0.135 0 0.276 0.088 0.276 0.224 0 0.047 0 0.14-0.047 0.183-0.183 0.599-0.324 1.145-0.324 1.692 0 0.323 0.048 0.776 0.141 1.052 0 0.047 0.041 0.093 0.088 0.093 0.095 0 0.735-0.593 1.188-1.375-0.412-0.271-0.641-0.729-0.641-1.276 0-0.963 0.6-1.464 1.147-1.464 0.459 0 0.823 0.319 0.823 0.959 0 0.412-0.136 0.871-0.364 1.281h0.135c0.292 0.011 0.579-0.109 0.776-0.317 0.047-0.073 0.109-0.125 0.183-0.156 0.448-0.568 1.104-0.989 1.88-0.989 0.64 0 1.229 0.276 1.276 0.776 0.093 0.687-0.505 0.823-0.688 0.823-0.181 0-0.504-0.047-0.504-0.229s0.411-0.093 0.369-0.5c-0.047-0.276-0.323-0.369-0.599-0.369-0.912 0-1.505 1.187-1.371 2.151 0.047 0.364 0.229 0.776 0.595 0.776 0.276 0 0.687-0.412 0.869-1.005 0.088-0.364 0.459-0.688 0.776-0.688 0.14 0 0.229 0.047 0.276 0.229 0 0.095 0 0.276-0.183 0.871-0.229 0.411-0.229 0.64-0.181 0.823 0.041 0.364 0.224 0.64 0.411 0.776 0.041 0.047 0.089 0.135 0.089 0.135 0 0.095-0.048 0.188-0.183 0.188-0.047 0-0.089 0-0.136-0.047-0.687-0.276-0.963-0.735-1.052-1.193-0.276 0.323-0.593 0.505-0.963 0.505-0.595 0-1.183-0.547-1.276-1.235-0.027-0.291 0.004-0.588 0.099-0.864-0.271 0.172-0.563 0.271-0.833 0.271h-0.224c-0.599 0.869-1.24 1.464-1.693 1.735-0.156 0.083-0.328 0.131-0.505 0.14-0.088 0-0.228-0.047-0.271-0.14-0.129-0.203-0.208-0.521-0.26-0.885-0.641 0.697-1.527 1.072-1.937 1.072-0.459 0-0.729-0.276-0.776-0.733v-0.5c0.135-1.005 0.505-1.604 0.505-1.787-0.005-0.047-0.043-0.089-0.095-0.093-0.317 0-1.369 1.099-1.552 1.833l-0.14 0.593c-0.089 0.411-0.5 0.687-0.776 0.687-0.136 0-0.229-0.047-0.271-0.228v-0.183l0.057-0.312c-0.579 0.411-1.157 0.676-1.433 0.676-0.411 0-0.64-0.229-0.681-0.552-0.276 0.371-0.595 0.552-1.005 0.552-0.475 0-0.932-0.323-1.151-0.791-0.329 0.369-0.699 0.739-1.136 1.020-0.64 0.412-1.369 0.729-2.24 0.729-0.776 0-1.463-0.412-1.828-0.776-0.552-0.505-0.869-1.281-0.916-2.011-0.271-2.239 1.099-5.12 3.197-6.401 0.505-0.276 1.011-0.457 1.511-0.457zM22.307 14.631c-0.135 0-0.228 0.229-0.228 0.452 0 0.371 0.181 0.781 0.411 1.011 0.095-0.249 0.136-0.515 0.141-0.781 0-0.452-0.183-0.681-0.324-0.681z" />
+              </svg>
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">Canva</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg fill="white" width="100%" height="100%" viewBox="0 0 14 14" role="img" focusable="false"
+                aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M 12.4,1 1.6,1 C 1.2678571,1 1,1.26786 1,1.6 L 1,12.4 C 1,12.73214 1.2678571,13 1.6,13 l 10.8,0 C 12.732143,13 13,12.73214 13,12.4 L 13,1.6 C 13,1.26786 12.732143,1 12.4,1 m -6.9991071,8.66518 -1.0660715,0 0,-5.33036 1.0660715,0 0,5.33036 z m 4.2669642,0 -3.2008928,0 0,-1.06607 3.2008928,0 0,1.06607 z m 0,-2.13214 -3.2008928,0 0,-1.06608 3.2008928,0 0,1.06608 z m 0,-2.13483 -3.2008928,0 0,-1.06607 3.2008928,0 0,1.06607 z" />
+              </svg>
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">Elementor</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg fill="white" width="100%" height="100%" viewBox="0 0 24 24" role="img"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Tailwind CSS icon</title>
+                <path
+                  d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
+              </svg>
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">Tailwind CSS</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="100%" height="100%" viewBox="0 -51.5 256 256" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid">
+                <path
+                  d="M23.759 0h208.378C245.325 0 256 10.675 256 23.863v79.541c0 13.188-10.675 23.863-23.863 23.863H157.41l10.257 25.118-45.109-25.118H23.863c-13.187 0-23.862-10.675-23.862-23.863V23.863C-.104 10.78 10.57 0 23.759 0z"
+                  fill="white" />
+                <path class="pathimportant"
+                  d="M14.578 21.75c1.457-1.978 3.642-3.018 6.556-3.226 5.308-.417 8.326 2.08 9.054 7.492 3.226 21.75 6.764 40.17 10.51 55.259l22.79-43.395c2.082-3.955 4.684-6.036 7.806-6.244 4.579-.312 7.388 2.601 8.533 8.741 2.602 13.84 5.932 25.6 9.886 35.59 2.706-26.432 7.285-45.476 13.737-57.235 1.56-2.914 3.85-4.371 6.868-4.58 2.394-.207 4.579.521 6.556 2.082 1.977 1.561 3.018 3.538 3.226 5.932.104 1.873-.208 3.434-1.04 4.995-4.059 7.493-7.39 20.085-10.095 37.567-2.601 16.963-3.538 30.18-2.914 39.65.209 2.6-.208 4.89-1.248 6.868-1.25 2.289-3.122 3.538-5.516 3.746-2.706.208-5.515-1.04-8.221-3.85-9.678-9.887-17.379-24.664-22.998-44.332-6.765 13.32-11.76 23.31-14.986 29.97-6.14 11.76-11.343 17.796-15.714 18.108-2.81.208-5.203-2.186-7.284-7.18-5.307-13.633-11.031-39.962-17.17-78.986-.417-2.706.207-5.1 1.664-6.972zm223.636 16.338c-3.746-6.556-9.262-10.51-16.65-12.072-1.978-.416-3.85-.624-5.62-.624-9.99 0-18.107 5.203-24.455 15.61-5.412 8.845-8.117 18.627-8.117 29.346 0 8.013 1.665 14.881 4.995 20.605 3.746 6.556 9.262 10.51 16.65 12.071 1.977.417 3.85.625 5.62.625 10.094 0 18.211-5.203 24.455-15.61 5.411-8.95 8.117-18.732 8.117-29.45.104-8.117-1.665-14.882-4.995-20.501zm-13.112 28.826c-1.457 6.868-4.059 11.967-7.91 15.401-3.017 2.706-5.827 3.85-8.428 3.33-2.498-.52-4.58-2.705-6.14-6.764-1.25-3.226-1.873-6.452-1.873-9.47 0-2.601.208-5.203.728-7.596.937-4.267 2.706-8.43 5.515-12.384 3.435-5.1 7.077-7.18 10.823-6.452 2.498.52 4.58 2.706 6.14 6.764 1.249 3.226 1.873 6.452 1.873 9.47 0 2.706-.208 5.307-.728 7.7zm-52.033-28.826c-3.746-6.556-9.366-10.51-16.65-12.072-1.977-.416-3.85-.624-5.62-.624-9.99 0-18.107 5.203-24.455 15.61-5.411 8.845-8.117 18.627-8.117 29.346 0 8.013 1.665 14.881 4.995 20.605 3.746 6.556 9.262 10.51 16.65 12.071 1.978.417 3.85.625 5.62.625 10.094 0 18.211-5.203 24.455-15.61 5.412-8.95 8.117-18.732 8.117-29.45 0-8.117-1.665-14.882-4.995-20.501zm-13.216 28.826c-1.457 6.868-4.059 11.967-7.909 15.401-3.018 2.706-5.828 3.85-8.43 3.33-2.497-.52-4.578-2.705-6.14-6.764-1.248-3.226-1.872-6.452-1.872-9.47 0-2.601.208-5.203.728-7.596.937-4.267 2.706-8.43 5.516-12.384 3.434-5.1 7.076-7.18 10.822-6.452 2.498.52 4.58 2.706 6.14 6.764 1.25 3.226 1.873 6.452 1.873 9.47.105 2.706-.208 5.307-.728 7.7z"
+                  fill="black" />
+              </svg>
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">Woocommerace</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M4.98488 2C3.61546 2 2.60217 3.19858 2.64753 4.49844C2.69105 5.74725 2.63451 7.36461 2.22732 8.68359C1.81892 10.0064 1.1282 10.8444 0 10.952V12.1666C1.1282 12.2742 1.81892 13.1122 2.22732 14.4351C2.63451 15.754 2.69105 17.3714 2.64753 18.6202C2.60217 19.9199 3.61546 21.1186 4.98508 21.1186H19.0169C20.3864 21.1186 21.3995 19.9201 21.3541 18.6202C21.3106 17.3714 21.3671 15.754 21.7743 14.4351C22.1829 13.1122 22.8718 12.2742 24 12.1666V10.952C22.8718 10.8444 22.1829 10.0064 21.7743 8.68359C21.3671 7.36481 21.3106 5.74725 21.3541 4.49844C21.3995 3.19878 20.3864 2 19.0169 2H4.98468H4.98488ZM16.2712 13.7687C16.2712 15.5586 14.9361 16.6441 12.7206 16.6441H8.94915C8.84127 16.6441 8.7378 16.6012 8.66152 16.5249C8.58523 16.4486 8.54237 16.3452 8.54237 16.2373V6.88136C8.54237 6.77347 8.58523 6.67001 8.66152 6.59372C8.7378 6.51743 8.84127 6.47458 8.94915 6.47458H12.6991C14.5464 6.47458 15.7588 7.47525 15.7588 9.01166C15.7588 10.09 14.9433 11.0555 13.9041 11.2245V11.2809C15.3187 11.4361 16.2712 12.4156 16.2712 13.7687ZM12.3094 7.76407H10.1589V10.8015H11.9701C13.3702 10.8015 14.1423 10.2377 14.1423 9.2299C14.1423 8.28556 13.4784 7.76407 12.3094 7.76407ZM10.1589 12.0068V15.3542H12.3885C13.8462 15.3542 14.6184 14.7692 14.6184 13.6699C14.6184 12.5704 13.8246 12.0066 12.2947 12.0066H10.1589V12.0068Z"
+                  fill="white" />
+              </svg>
+
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">Bootstrap</h1>
+            </div>
+            <div class="swiper-slide   overflow-hidden relative skill_image">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white">
+                <path
+                  d="M12 2.69C11.16 1.46 10.05 1 9.42 1c-.83 0-1.79.57-1.79 2.24 0 2.1 2.37 4.23 2.37 6.58 0 1.9-1.31 3.21-2.64 3.21-1.25 0-2.13-.99-2.13-2.41 0-.63.21-1.19.56-1.6.18-.21.28-.49.28-.79 0-.67-.53-1.2-1.2-1.2-.33 0-.64.13-.86.36C2.91 9.87 2 11.88 2 14c0 5.52 4.48 10 10 10s10-4.48 10-10c0-2.12-.91-4.13-2.52-5.61a1.202 1.202 0 0 0-1.72.04c-.23.23-.36.54-.36.86 0 .3.1.58.28.79.35.41.56.97.56 1.6 0 1.42-.88 2.41-2.13 2.41-1.33 0-2.64-1.31-2.64-3.21 0-2.35 2.37-4.48 2.37-6.58 0-1.67-.96-2.24-1.79-2.24-.63 0-1.74.46-2.58 1.69z" />
+              </svg>
+
+              <h1 class="text-white text-[15px] heading_font mt-[14px] text-center">Shopify Liquid</h1>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="py-16 px-4">
+      <h2 class="text-4xl font-bold text-white text-center mb-12 heading_font"> My <span
+          class="text-[#FC6C07] font-bold">Project</span></h2>
+      <div class="container mx-auto" data-aos="fade-up">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1: Video -->
+            <div class="swiper-slide bg-white rounded-xl shadow overflow-hidden relative video-slide h-[220px]">
+              <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                <source src="assets/images/Untitled design.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide bg-white rounded-xl shadow overflow-hidden relative video-slide h-[220px]">
+              <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                <source src="assets/images/Untitled design (1).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide bg-white rounded-xl shadow overflow-hidden relative video-slide h-[220px]">
+              <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                <source src="assets/images/Untitled design (9).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="swiper-slide bg-white rounded-xl shadow overflow-hidden relative video-slide h-[220px]">
+              <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                <source src="assets/images/Untitled design (3).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="swiper-slide bg-white rounded-xl shadow overflow-hidden relative video-slide h-[220px]">
+              <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                <source src="assets/images/Untitled design (4).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="swiper-slide bg-white rounded-xl shadow overflow-hidden relative video-slide h-[220px]">
+              <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                <source src="assets/images/Untitled design (6).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="swiper-slide bg-white rounded-xl shadow overflow-hidden relative video-slide h-[220px]">
+              <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                <source src="assets/images/Untitled design (7).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="swiper-slide bg-white rounded-xl shadow overflow-hidden relative video-slide h-[220px]">
+              <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                <source src="assets/images/Untitled design (8).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <a href="assets/Shopify&amp;Wordpress CV.pdf" class="!mt-[40px] block !m-auto hover:scale-105 px-8 py-4 text-center w-fit text-white text-[16px] font-semibold uppercase rounded-full shadow-md transition-colors duration-300 bg-[#15151880] border border-[#474753] hover:bg-[#fc6c07]">
+           Find More
+          </a>
+    </section>
+
+  </div>
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/site.js"></script>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+</html>

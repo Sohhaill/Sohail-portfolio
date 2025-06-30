@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Fira-Code';
+    src: url('/assets/font/Gagalin-Regular.woff') format('woff');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* For WebKit Browsers */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+    /* optional: dark background */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fc6c07;
+    /* black scrollbar */
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.wraper_sh {
+    background-color: black;
+}
+
+.heading_font {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.video-slide::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 18%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.sh_blackoverlay {
+    background: url('/assets/images/Social\ Media\ Expert\ \(1920\ x\ 900\ px\)\ \(4\).png');
+    background-size: cover;
+}
+
+.banneroverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    /* vertical center */
+    justify-content: center;
+    /* horizontal center */
+    text-align: center;
+
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+.banner_inner_text {
+    background-color: #15151880;
+    padding: 1.78em 3.5em;
+    border: 1px solid #474753;
+}
+
+.menu {
+    background-color: #15151880;
+    border: 1px solid #474753;
+    justify-content: center;
+    align-items: center;
+    padding: 1.78em 3.5em;
+    display: flex;
+}
+
+.pathimportant {
+    fill: black !important;
+}
+
+path,
+svg,
+a {
+    transition: all .3s ease-in-out !important;
+    cursor: pointer;
+}
+
+.skill_image:hover path {
+    fill: #FC6C07
+}
+
+.linkdlen:hover path {
+    fill: #FC6C07
+}
+
+.github:hover path {
+    fill: #FC6C07
+}
+
+.whatsapp:hover path {
+    fill: #FC6C07
+}
+
+.hamburger:hover path {
+    fill: #FC6C07
+}
+
+svg .shopify-bg:hover path {
+    fill: #FC6C07
+}
+
+span#typewriter {
+    height: 89px;
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1212px;
+    }
+}
+
+@media (max-width:1279px) {
+    .menu_each {
+        width: 125px !important;
+    }
+}
+
+.menu_each {
+    width: 159px !important;
+}
