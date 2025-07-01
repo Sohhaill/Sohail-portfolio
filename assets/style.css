@@ -190,9 +190,9 @@ span#typewriter {
   .scroll-track {
     animation: scroll-loopmob 10s linear infinite;
   }
-.logo_left {
+  .logo_left {
     order: 2;
-}
+  }
   .skills {
     flex-direction: column;
   }
@@ -203,5 +203,37 @@ span#typewriter {
   .circle {
     width: 104px;
     height: 104px;
+  }
+}
+@media (max-width: 768px) {
+  .banneroverlay {
+    position: static;
+    padding: 20px 20px;
+  }
+  .banner_inner_text {
+    padding: 20px 10px !important;
+    width: unset !important;
+    height: unset !important;
+  }
+  span#typewriter {
+    height: 105px;
+    display: block;
+  }
+  .sohail_info {
+    flex-direction: column;
+  }
+  .logos.flex.flex-col.gap-\[29px\] {
+    flex-direction: row;
+    gap: 38px;
+  }
+  .skill_main {
+    gap: 59px;
+    height: 750px !important;
+  }
+  .currently_working {
+    position: static;
+    width: fit-content;
+    margin: auto;
+    transform: unset !important;
   }
 }
