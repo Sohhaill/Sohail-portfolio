@@ -1,144 +1,139 @@
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* For WebKit Browsers */
 ::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #1a1a1a;
-    /* optional: dark background */
+  background: #1a1a1a;
+  /* optional: dark background */
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #fc6c07;
-    /* black scrollbar */
-    border-radius: 4px;
+  background-color: #fc6c07;
+  /* black scrollbar */
+  border-radius: 4px;
 }
 
 .container {
-    max-width: 1280px;
-    padding: 0px 20px;
-    margin: auto;
+  max-width: 1280px;
+  padding: 0px 20px;
+  margin: auto;
 }
 
 .wraper_sh {
-    background-color: black;
+  background-color: black;
 }
 
 .heading_font {
-    font-family: "Cinzel Decorative", serif;
-    font-weight: bold;
-    letter-spacing: 3px;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: bold;
+  letter-spacing: 3px;
 }
 
 .video-slide::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgb(0 0 0 / 18%);
-    z-index: 2;
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / 18%);
+  z-index: 2;
+  pointer-events: none;
 }
 
-
-
 .banneroverlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    /* vertical center */
-    justify-content: center;
-    /* horizontal center */
-    text-align: center;
-
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  /* vertical center */
+  justify-content: center;
+  /* horizontal center */
+  text-align: center;
 }
 
 p {
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    letter-spacing: 2px;
-    font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 17px;
 }
 
 .banner_inner_text {
-    background-color: #15151880;
-    padding: 1.78em 3.5em;
-    border: 1px solid #474753;
+  background-color: #15151880;
+  padding: 1.78em 3.5em;
+  border: 1px solid #474753;
 }
 
 .menu {
-    background-color: #15151880;
-    border: 1px solid #474753;
-    justify-content: center;
-    align-items: center;
-    padding: 1.78em 3.5em;
-    display: flex;
+  background-color: #15151880;
+  border: 1px solid #474753;
+  justify-content: center;
+  align-items: center;
+  padding: 1.78em 3.5em;
+  display: flex;
 }
 
 .pathimportant {
-    fill: black !important;
+  fill: black !important;
 }
 
 path,
 svg,
 a {
-    transition: all .3s ease-in-out !important;
-    cursor: pointer;
+  transition: all 0.3s ease-in-out !important;
+  cursor: pointer;
 }
 
 .logo_each:hover path {
-    fill: #FC6C07
+  fill: #fc6c07;
 }
 
 .linkdlen:hover path {
-    fill: #FC6C07
+  fill: #fc6c07;
 }
 
 .github:hover path {
-    fill: #FC6C07
+  fill: #fc6c07;
 }
 
 .whatsapp:hover path {
-    fill: #FC6C07
+  fill: #fc6c07;
 }
 
 .hamburger:hover path {
-    fill: #FC6C07
+  fill: #fc6c07;
 }
 
 svg .shopify-bg:hover path {
-    fill: #FC6C07
+  fill: #fc6c07;
 }
 
 span#typewriter {
-    height: 89px;
-    display: block;
+  height: 89px;
+  display: block;
 }
 
 @media (min-width: 1024px) {
-    .container {
-        max-width: 1212px;
-    }
+  .container {
+    max-width: 1212px;
+  }
 }
 
-@media (max-width:1279px) {
-    .menu_each {
-        width: 125px !important;
-    }
+@media (max-width: 1279px) {
+  .menu_each {
+    width: 125px !important;
+  }
 }
 
 .menu_each {
-    width: 159px !important;
+  width: 159px !important;
 }
-
 
 .scroll-track {
   display: flex;
@@ -152,5 +147,61 @@ span#typewriter {
   }
   100% {
     transform: translateY(-50%);
+  }
+}
+@keyframes scroll-loopmob {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.circle {
+  width: 9.75em;
+  height: 9.75em;
+}
+
+@media (max-width: 1308px) {
+  .circle {
+    width: 6.75em;
+    height: 6.75em;
+  }
+  .circle svg {
+    width: 40px !important;
+  }
+}
+
+@media (max-width: 1102px) {
+  .skill_main {
+    gap: 95px;
+  }
+}
+@media (max-width: 1102px) {
+  .skill_main {
+    flex-direction: column;
+    height: 640px !important;
+    padding: 40px 0px;
+  }
+  .scroll-track {
+    flex-direction: row;
+    gap: 160px;
+  }
+  .scroll-track {
+    animation: scroll-loopmob 10s linear infinite;
+  }
+.logo_left {
+    order: 2;
+}
+  .skills {
+    flex-direction: column;
+  }
+  .logos {
+    flex-direction: row;
+    gap: 72px;
+  }
+  .circle {
+    width: 104px;
+    height: 104px;
   }
 }
