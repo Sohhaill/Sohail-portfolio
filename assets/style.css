@@ -198,8 +198,8 @@ span#typewriter {
     flex-direction: column;
   }
   .logos {
-    flex-direction: row;
-    gap: 72px;
+    flex-direction: row !important;
+    gap: 72px !important;
   }
   .circle {
     width: 104px;
