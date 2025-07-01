@@ -241,3 +241,14 @@ span#typewriter {
     width: 50% !important;
   }
 }
+@keyframes subtleDance {
+  0%   { transform: translateY(0); }
+  20%  { transform: translateY(-3px) rotate(-1deg); }
+  40%  { transform: translateY(3px) rotate(1deg); }
+  60%  { transform: translateY(-2px); }
+  80%  { transform: translateY(2px); }
+  100% { transform: translateY(0); }
+}
+.dancing-button{
+    animation: subtleDance 2s infinite ease-in-out;
+}
