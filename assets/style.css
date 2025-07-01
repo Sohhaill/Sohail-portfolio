@@ -238,6 +238,6 @@ span#typewriter {
     transform: unset !important;
   }
   .sohail_image{
-    width: 50%;
+    width: 50% !important;
   }
 }
