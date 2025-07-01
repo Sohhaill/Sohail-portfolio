@@ -192,7 +192,7 @@ span#typewriter {
   }
   .logo_left {
     order: 2;
-    flex-direction: column;
+    flex-direction: column !important;
   }
   .skills {
     flex-direction: column;
