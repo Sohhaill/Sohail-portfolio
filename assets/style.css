@@ -231,7 +231,7 @@ span#typewriter {
     height: 750px !important;
   }
   .currently_working {
-    position: static;
+    position: static !important;
     width: fit-content;
     margin: auto;
     transform: unset !important;
