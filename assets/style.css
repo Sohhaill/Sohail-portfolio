@@ -237,4 +237,7 @@ span#typewriter {
     margin: auto;
     transform: unset !important;
   }
+  .sohail_image{
+    width: 50%;
+  }
 }
