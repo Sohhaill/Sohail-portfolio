@@ -259,3 +259,8 @@ span#typewriter {
   font-weight: normal;
   font-style: normal;
 }
+.skill_main:hover{
+   box-shadow: 0 4px 15px 0 rgba(252, 108, 7, 0.5), 
+              0 8px 30px 0 rgba(255, 60, 172, 0.3);
+  transition: all .3s ease-in-out;
+}

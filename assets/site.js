@@ -27,45 +27,45 @@ typeText();
 
   typeText();
 
-    new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 20,
-     loop: true,
-    autoplay: {
-      delay: 1500,
-      disableOnInteraction: false, 
-    },
-    breakpoints: {
-      640: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3.5,
-      },
-    },
+  //   new Swiper(".mySwiper", {
+  //   slidesPerView: 1,
+  //   spaceBetween: 20,
+  //    loop: true,
+  //   autoplay: {
+  //     delay: 1500,
+  //     disableOnInteraction: false, 
+  //   },
+  //   breakpoints: {
+  //     640: {
+  //       slidesPerView: 2,
+  //     },
+  //     1024: {
+  //       slidesPerView: 3.5,
+  //     },
+  //   },
+  //   loop: true,
+  // });
+
+
+  const swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 3,
     loop: true,
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
   });
 
-   new Swiper(".skill", {
-    slidesPerView: 2.5,
-    spaceBetween: 40,
-     loop: true,
-  autoplay: {
-      delay: 1500,
-      disableOnInteraction: false, 
-    },
-    breakpoints: {
-      640: {
-        slidesPerView: 2.5,
-         spaceBetween: 40,
-      },
-      1024: {
-        slidesPerView: 8,
-         spaceBetween: 70,
-      },
-    },
-    loop: true,
-  });
 
     const menu = document.getElementById('mobileMenu');
   const toggle = document.getElementById('menuToggle');
