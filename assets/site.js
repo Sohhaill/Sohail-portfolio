@@ -25,27 +25,6 @@ function typeText() {
 }
 typeText();
 
-  typeText();
-
-  //   new Swiper(".mySwiper", {
-  //   slidesPerView: 1,
-  //   spaceBetween: 20,
-  //    loop: true,
-  //   autoplay: {
-  //     delay: 1500,
-  //     disableOnInteraction: false, 
-  //   },
-  //   breakpoints: {
-  //     640: {
-  //       slidesPerView: 2,
-  //     },
-  //     1024: {
-  //       slidesPerView: 3.5,
-  //     },
-  //   },
-  //   loop: true,
-  // });
-
 
   const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
