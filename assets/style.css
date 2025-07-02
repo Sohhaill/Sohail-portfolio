@@ -154,7 +154,7 @@ span#typewriter {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 .circle {
@@ -207,6 +207,9 @@ span#typewriter {
   }
 }
 @media (max-width: 768px) {
+    .scroll-track {
+      flex-direction: row !important;
+    }
   .banneroverlay {
     position: static;
     padding: 20px 20px;

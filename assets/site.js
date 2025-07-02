@@ -43,6 +43,18 @@ typeText();
       delay: 2500,
       disableOnInteraction: false,
     },
+    breakpoints: {
+  320: {
+    slidesPerView: 1.2, // shows a bit of the next slide
+  },
+  480: {
+    slidesPerView: 1.5, // a bit more visible
+  },
+  640: {
+    slidesPerView: 2, // two slides for larger phones
+  }
+}
+
   });
 
 
