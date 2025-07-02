@@ -19,7 +19,7 @@ html {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1280px !important;
   padding: 0px 20px;
   margin: auto;
 }
@@ -29,9 +29,9 @@ html {
 }
 
 .heading_font {
-  font-family: "Cinzel Decorative", serif;
+     font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  letter-spacing: 3px;
+ 
 }
 
 .video-slide::after {
@@ -58,7 +58,7 @@ html {
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   letter-spacing: 2px;
   font-size: 17px;
@@ -119,21 +119,21 @@ span#typewriter {
   display: block;
 }
 
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1212px;
-  }
+@media (min-width: 1091px) {
+.menu {
+  gap: 39px;
+}
 }
 
 @media (max-width: 1279px) {
-  .menu_each {
+  /* .menu_each {
     width: 125px !important;
-  }
+  } */
 }
 
-.menu_each {
+/* .menu_each {
   width: 159px !important;
-}
+} */
 
 .scroll-track {
   display: flex;
@@ -251,4 +251,11 @@ span#typewriter {
 }
 .dancing-button{
     animation: subtleDance 2s infinite ease-in-out;
+}
+
+@font-face {
+  font-family: 'Alliance';
+  src: url('/assets/font/Alliance.woff.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
