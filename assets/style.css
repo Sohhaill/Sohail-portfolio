@@ -56,7 +56,40 @@ html {
   /* horizontal center */
   text-align: center;
 }
+.sohail_info {
+    box-shadow: 0 4px 15px 0 rgba(252, 108, 7, 0.5), 0 8px 30px 0 rgba(255, 60, 172, 0.3);
+    transition: all .3s ease-in-out;
+        background-image: url(/assets/images/social-media-expert-4.jpg);
+        background-size: cover;
+    border-radius: 21px;
+    padding: 60px 0px;
+}
+.glow-wrapper {
+  --a: 0deg;
+  --l: #0000 0% 70%, #fc6c07;
+  border-radius: 20px;
+  padding: 3px; /* border thickness */
+  background: repeating-conic-gradient(from var(--a), var(--l));
+  animation: rotateBorder 2s linear infinite;
+  filter: url(#glow-0);
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  height: 100%;
+}
+/* // transformaer settings */
+@property --a {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
 
+
+
+@keyframes rotateBorder {
+  to {
+    --a: 1turn;
+  }
+}
 p {
   font-family: 'Roboto', sans-serif;
   color: white;
