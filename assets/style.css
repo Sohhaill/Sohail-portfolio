@@ -1,6 +1,11 @@
 html {
   scroll-behavior: smooth;
 }
+@font-face {
+  font-family: 'Alfa';
+  src: url('../assets/font/LeagueGothic-Regular.woff') format('woff');
+
+}
 
 /* For WebKit Browsers */
 ::-webkit-scrollbar {
@@ -29,8 +34,8 @@ html {
 }
 
 .heading_font {
-     font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+    font-family: "Oswald", sans-serif;
+  /* font-weight: bold; */
  
 }
 
