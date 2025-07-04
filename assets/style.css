@@ -59,7 +59,7 @@ html {
 .sohail_info {
     box-shadow: 0 4px 15px 0 rgba(252, 108, 7, 0.5), 0 8px 30px 0 rgba(255, 60, 172, 0.3);
     transition: all .3s ease-in-out;
-        background-image: url(/assets/images/social-media-expert-4.jpg);
+       background-image: url(../assets/images/social-media-expert-4.jpg);
         background-size: cover;
     border-radius: 21px;
     padding: 60px 0px;
