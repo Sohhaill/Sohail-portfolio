@@ -325,8 +325,7 @@ span#typewriter {
     border: 1px solid #474753;
     border-radius: 100%;
     transition: all .3s ease-in-out;
-    width: 130px;
-    height: 130px;
+    
     display: flex !important
 ;
     justify-content: center;
