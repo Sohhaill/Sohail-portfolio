@@ -320,12 +320,17 @@ span#typewriter {
     top: 0px;
 }
 .project_logo {
-    padding: 41px 24px;
+    /* padding: 41px 24px; */
     background-color: #15151880;
     border: 1px solid #474753;
     border-radius: 100%;
     transition: all .3s ease-in-out;
- 
+    width: 130px;
+    height: 130px;
+    display: flex !important
+;
+    justify-content: center;
+    align-items: center;
 }
 .project_logo:hover{
    box-shadow: 0 4px 15px 0 rgba(252, 108, 7, 0.5), 0 8px 30px 0 rgba(255, 60, 172, 0.3);
