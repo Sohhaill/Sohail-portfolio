@@ -297,6 +297,7 @@ span#typewriter {
 }
 .dancing-button{
     animation: subtleDance 2s infinite ease-in-out;
+    font-family: "Oswald", sans-serif;
 }
 
 @font-face {
@@ -330,6 +331,10 @@ span#typewriter {
 ;
     justify-content: center;
     align-items: center;
+}
+.white_logobg{
+      background-color: #c9c9d480;
+      border: 1px solid #ffffff;
 }
 .project_logo:hover{
    box-shadow: 0 4px 15px 0 rgba(252, 108, 7, 0.5), 0 8px 30px 0 rgba(255, 60, 172, 0.3);
