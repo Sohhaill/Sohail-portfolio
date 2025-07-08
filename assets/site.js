@@ -39,10 +39,16 @@ typeText();
       modifier: 1,
       slideShadows: true,
     },
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
+     loop: true,
+  speed: 1000, // The higher the speed, the smoother and slower the transition
+  autoplay: {
+    delay: 3000, // No pause between transitions
+    disableOnInteraction: false,
+  },
+  slidesPerView: 'auto', // For a smooth continuous marquee-style flow
+  spaceBetween: 20,       // Optional: controls spacing between slides
+  grabCursor: true,       // Optional: makes it feel more interactive
+
     breakpoints: {
   320: {
     slidesPerView: 1.2, // shows a bit of the next slide
