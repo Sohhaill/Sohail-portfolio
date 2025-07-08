@@ -77,3 +77,30 @@ typeText();
     menu.classList.remove('translate-x-0');
     menu.classList.add('translate-x-full');
   });
+
+
+const swiper3 = new Swiper(".crouselleft", { 
+  loop: true,
+  speed: 3000, // The higher the speed, the smoother and slower the transition
+  autoplay: {
+    delay: 0, // No pause between transitions
+    disableOnInteraction: false,
+  },
+  slidesPerView: 3, // For a smooth continuous marquee-style flow
+  spaceBetween: 20,       // Optional: controls spacing between slides
+  grabCursor: true,       // Optional: makes it feel more interactive
+});
+
+
+const swiper4 = new Swiper(".crouselright", { 
+  loop: true,
+  speed: 3000, // The higher the speed, the smoother and slower the transition
+  autoplay: {
+    delay: 0, // No pause between transitions
+    disableOnInteraction: false,
+    reverseDirection: true,
+  },
+  slidesPerView: 3, // For a smooth continuous marquee-style flow
+  spaceBetween: 20,       // Optional: controls spacing between slides
+  grabCursor: true,       // Optional: makes it feel more interactive
+});
