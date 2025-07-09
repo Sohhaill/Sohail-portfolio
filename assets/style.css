@@ -110,7 +110,7 @@ p {
 
 .banner_inner_text {
   background-color: #15151880;
-  padding: 1.78em 3.5em;
+  padding: 1.78em 1.5em;
   border: 1px solid #474753;
 }
 
@@ -335,4 +335,13 @@ span#typewriter {
     overflow: scroll;
     justify-content: flex-start;
     scrollbar-width: none;
+}
+.swiper-slide.relative img::after{
+  content: "";
+  width: 100% !important;
+  width: 100% !important;
+  position: absolute;
+  background-color: #fc6c07;
+  top: 0px;
+  z-index: 100;
 }
