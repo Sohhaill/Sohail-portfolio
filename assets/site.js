@@ -45,19 +45,19 @@ typeText();
     delay: 3000, // No pause between transitions
     disableOnInteraction: false,
   },
-  slidesPerView: 'auto', // For a smooth continuous marquee-style flow
-  spaceBetween: 20,       // Optional: controls spacing between slides
-  grabCursor: true,       // Optional: makes it feel more interactive
+  slidesPerView: 'auto', 
+  spaceBetween: 20,       
+  grabCursor: true,       
 
     breakpoints: {
   320: {
-    slidesPerView: 1.2, // shows a bit of the next slide
+    slidesPerView: 1.2, 
   },
   480: {
-    slidesPerView: 1.5, // a bit more visible
+    slidesPerView: 1.5, 
   },
   640: {
-    slidesPerView: 2, // two slides for larger phones
+    slidesPerView: 2, 
   }
 }
 
@@ -81,26 +81,27 @@ typeText();
 
 const swiper3 = new Swiper(".crouselleft", { 
   loop: true,
-  speed: 3000, // The higher the speed, the smoother and slower the transition
+  speed: 3000, 
   autoplay: {
-    delay: 0, // No pause between transitions
+    delay: 0, 
     disableOnInteraction: false,
   },
-  slidesPerView: 3, // For a smooth continuous marquee-style flow
-  spaceBetween: 20,       // Optional: controls spacing between slides
-  grabCursor: true,       // Optional: makes it feel more interactive
+  slidesPerView: 3, 
+  spaceBetween: 20,      
+  grabCursor: true, 
+        
 });
 
 
 const swiper4 = new Swiper(".crouselright", { 
   loop: true,
-  speed: 3000, // The higher the speed, the smoother and slower the transition
+  speed: 3000, 
   autoplay: {
-    delay: 0, // No pause between transitions
+    delay: 0, 
     disableOnInteraction: false,
     reverseDirection: true,
   },
-  slidesPerView: 3, // For a smooth continuous marquee-style flow
-  spaceBetween: 20,       // Optional: controls spacing between slides
-  grabCursor: true,       // Optional: makes it feel more interactive
+  slidesPerView: 3,
+  spaceBetween: 20,    
+  grabCursor: true,      
 });
