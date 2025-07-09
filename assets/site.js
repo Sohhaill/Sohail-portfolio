@@ -86,11 +86,25 @@ const swiper3 = new Swiper(".crouselleft", {
     delay: 0, 
     disableOnInteraction: false,
   },
-  slidesPerView: 3, 
   spaceBetween: 20,      
   grabCursor: true, 
-        
+
+  // Default for desktop
+  slidesPerView: 3, 
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1.5, // Mobile
+    },
+    768: {
+      slidesPerView: 2.5, // Tablet
+    },
+    1024: {
+      slidesPerView: 3,   // Desktop
+    },
+  }
 });
+
 
 
 const swiper4 = new Swiper(".crouselright", { 
@@ -101,7 +115,21 @@ const swiper4 = new Swiper(".crouselright", {
     disableOnInteraction: false,
     reverseDirection: true,
   },
-  slidesPerView: 3,
-  spaceBetween: 20,    
-  grabCursor: true,      
+  spaceBetween: 20,      
+  grabCursor: true, 
+
+  // Default for desktop
+  slidesPerView: 3, 
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1.5, // Mobile
+    },
+    768: {
+      slidesPerView: 2.5, // Tablet
+    },
+    1024: {
+      slidesPerView: 3,   // Desktop
+    },
+  }
 });
