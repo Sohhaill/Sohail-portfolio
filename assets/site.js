@@ -110,11 +110,11 @@ const swiper3 = new Swiper(".crouselleft", {
 const swiper4 = new Swiper(".crouselright", { 
   loop: true,
   speed: 3000, 
-  // autoplay: {
-  //   delay: 0, 
-  //   disableOnInteraction: false,
-  //   reverseDirection: true,
-  // },
+  autoplay: {
+    delay: 0, 
+    disableOnInteraction: false,
+    reverseDirection: true,
+  },
   spaceBetween: 20,      
   grabCursor: true, 
 

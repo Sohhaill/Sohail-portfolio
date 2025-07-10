@@ -369,7 +369,7 @@ span#typewriter {
   height: 100%;
   background: #fc6c07;
   transform-origin: top;
-  animation: blink 4s infinite;
+  animation: blink 2s infinite;
 }
 
 @keyframes blink {
