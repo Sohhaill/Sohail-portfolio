@@ -245,7 +245,7 @@ span#typewriter {
   .wordpress_projects svg, .shopify_logo svg {
     width: 50px;
 }
-.wordpress_projects .shopify_logo {
+.wordpress_projects .shopify_logo, .shoopify_project .shopify_logo {
 width: 82px !important;
 height: 77px !important;
 }
