@@ -94,10 +94,12 @@ const swiper3 = new Swiper(".crouselleft", {
 
   breakpoints: {
     320: {
-      slidesPerView: 1.5, // Mobile
+      slidesPerView: 1.5,
+       spaceBetween: 5, // Mobile
     },
     768: {
-      slidesPerView: 2.5, // Tablet
+      slidesPerView: 2.5,
+       spaceBetween: 5, // Tablet
     },
     1024: {
       slidesPerView: 3,   // Desktop
@@ -123,10 +125,12 @@ const swiper4 = new Swiper(".crouselright", {
 
   breakpoints: {
     320: {
-      slidesPerView: 1.5, // Mobile
+      slidesPerView: 1.5,
+      spaceBetween: 5,     // Mobile
     },
     768: {
-      slidesPerView: 2.5, // Tablet
+      slidesPerView: 2.5,
+       spaceBetween: 5, // Tablet
     },
     1024: {
       slidesPerView: 3,   // Desktop
