@@ -87,7 +87,7 @@ const swiper3 = new Swiper(".crouselleft", {
     disableOnInteraction: false,
   },
   spaceBetween: 20,      
-  grabCursor: true, 
+ 
 
   // Default for desktop
   slidesPerView: 3, 
@@ -116,7 +116,7 @@ const swiper4 = new Swiper(".crouselright", {
     reverseDirection: true,
   },
   spaceBetween: 20,      
-  grabCursor: true, 
+
 
   // Default for desktop
   slidesPerView: 3, 

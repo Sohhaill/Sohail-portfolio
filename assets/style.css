@@ -242,6 +242,13 @@ span#typewriter {
   }
 }
 @media (max-width: 768px) {
+  .wordpress_projects svg, .shopify_logo svg {
+    width: 50px;
+}
+.wordpress_projects .shopify_logo {
+width: 82px !important;
+height: 77px !important;
+}
     .scroll-track {
       flex-direction: row !important;
     }
