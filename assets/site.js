@@ -137,3 +137,31 @@ const swiper4 = new Swiper(".crouselright", {
     },
   }
 });
+const swiper5 = new Swiper(".crouselrightshopify", { 
+  loop: true,
+  speed: 3000, 
+  autoplay: {
+    delay: 0, 
+    disableOnInteraction: false,
+    reverseDirection: true,
+  },
+  spaceBetween: 20,      
+
+
+  // Default for desktop
+  slidesPerView: 3, 
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1.5,
+      spaceBetween: 5,     // Mobile
+    },
+    768: {
+      slidesPerView: 2.5,
+       spaceBetween: 5, // Tablet
+    },
+    1024: {
+      slidesPerView: 3,   // Desktop
+    },
+  }
+});
