@@ -385,3 +385,11 @@ height: 77px !important;
   50% { transform: scaleY(1); }
   52% { transform: scaleY(0); }
 }
+.relative.banner_video::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background: #00000091;
+}
