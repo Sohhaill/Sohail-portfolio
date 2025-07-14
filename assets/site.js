@@ -1,29 +1,3 @@
-const rawText = "Shopify & WordPress<br><span class='highlight'>Developer</span>";
-const typingSpeed = 100;
-const delayAfterTyping = 2000;
-const element = document.getElementById("typewriter");
-
-let i = 0;
-let displayText = "";
-
-function typeText() {
-  // Show raw HTML character-by-character
-  if (i < rawText.length) {
-    displayText += rawText[i];
-    element.innerHTML = displayText;
-    i++;
-    setTimeout(typeText, typingSpeed);
-  } else {
-    // Restart after delay
-    setTimeout(() => {
-      i = 0;
-      displayText = "";
-      element.innerHTML = "";
-      typeText();
-    }, delayAfterTyping);
-  }
-}
-typeText();
 
 
   const swiper = new Swiper(".mySwiper", {
