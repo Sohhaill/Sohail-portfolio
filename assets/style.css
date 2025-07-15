@@ -393,3 +393,16 @@ height: 77px !important;
     top: 0px;
     background: #00000091;
 }
+header {
+  position: sticky;
+  top: 1px;
+  width: 100%;
+  z-index: 100000;
+  transition: all 0.3s ease;
+}
+
+header.scrolled {
+  backdrop-filter: blur(6px);
+  padding: 13px 0px !important;
+
+}

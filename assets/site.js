@@ -139,3 +139,7 @@ const swiper5 = new Swiper(".crouselrightshopify", {
     },
   }
 });
+window.addEventListener("scroll", function () {
+  const header = document.getElementById("mainHeader");
+  header.classList.toggle("scrolled", window.scrollY > 0);
+});
