@@ -23,27 +23,39 @@
 
 <body>
 
-  <div class="splash_screen h-[100vh] relative z-50">
-    <div id="splashTop" class="splash_top  h-[50%] transition-all duration-1000 backdrop-blur-[8px]"></div>
+  <div class="splash_screen h-[100vh] relative z-50 overflow-hidden">
+    
+    <div id="splashTop" class="splash_top  h-[50%] transition-all duration-1000 backdrop-blur-[9px]"></div>
 
     <div
       id="splashText"
       class="splah_text flex flex-col absolute top-[-26px] z-[1000] w-full h-[100%] flex justify-center items-center transition-all duration-1000"
     >
-     <h1 class="heading_font text-center text-[10vw] font-bold text-white">
-  Muhammad Sohail
+ <h1 class="heading_font text-center text-[10vw] font-bold text-[#eb6506] flex"  style="text-shadow: 0 0 8px #eb66065c;">
+    <span id="muhammad" 
+      class="inline-block opacity-0 scale-50 -translate-x-[100vw] transition-all duration-1000 ease-[cubic-bezier(0.68,-0.55,0.27,1.55)]">
+      Muhammad&nbsp;
+    </span>
+    <span id="sohail"
+      class="inline-block opacity-0 scale-50 translate-x-[100vw] transition-all duration-1000 ease-[cubic-bezier(0.68,-0.55,0.27,1.55)]">
+      Sohail
+    </span>
+  </h1>
+<h1 id="subtitle"
+  class="heading_font text-center text-[3vw] font-bold text-white mt-4 opacity-0 translate-y-8 transition-all duration-1000 ease-out"
+  style="text-shadow: 0 0 8px #ffffffaa;">
+  wordpress and shopify developer
 </h1>
-<h1 class="heading_font text-center text-[3vw] font-bold text-white">
- wordpress and shopify developer
-</h1>
+
+
     </div>
 
-    <div id="splashBottom" class="splash_bottom  h-[50%] transition-all duration-1000 backdrop-blur-[8px]"></div>
+    <div id="splashBottom" class="splash_bottom  h-[50%] transition-all duration-1000 backdrop-blur-[9px]"></div>
 
    
 
     <!-- Progress Bar -->
-    <div class="progress-bar absolute bottom-10 left-1/2 transform -translate-x-1/2 w-2/3 h-[8px] rounded-full overflow-hidden bg-gray-300"></div>
+    <div class="progress-bar absolute bottom-10 left-1/2 transform -translate-x-1/2 w-2/3 h-[8px] rounded-full overflow-hidden bg-black"></div>
   </div>
 
 <div id="mainContent" class="hidden">

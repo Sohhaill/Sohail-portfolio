@@ -424,8 +424,8 @@ header.scrolled {
       left: 0;
       height: 100%;
       width: 0%;
-      background:black;
-      animation: progress 3s linear forwards;
+      background:#eb6506;
+      animation: progress 6.5s linear forwards;
     }
 
     @keyframes slideUp {
