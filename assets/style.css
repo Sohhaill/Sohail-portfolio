@@ -408,3 +408,58 @@ header.scrolled {
 
 }
 
+    .animate-up {
+      animation: slideUp 1s forwards;
+    }
+    .animate-down {
+      animation: slideDown 1s forwards;
+    }
+    .fade-out {
+      animation: fadeOut 1s forwards;
+    }
+    .progress-bar::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 0%;
+      background:black;
+      animation: progress 3s linear forwards;
+    }
+
+    @keyframes slideUp {
+      to {
+        transform: translateY(-100%);
+      }
+    }
+    @keyframes slideDown {
+      to {
+        transform: translateY(100%);
+      }
+    }
+    @keyframes fadeOut {
+      to {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+    }
+    @keyframes progress {
+      to {
+        width: 100%;
+      }
+    }
+    .heading_font {
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.splash_screen{
+    background-image: url(../assets/images/splash_desktop.png);
+}
+
+@media(max-width:768px){
+.splash_screen{
+    background-image: url(../assets/images/splash_mobile.png);
+}
+}

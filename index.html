@@ -23,6 +23,30 @@
 
 <body>
 
+  <div class="splash_screen h-[100vh] relative z-50">
+    <div id="splashTop" class="splash_top  h-[50%] transition-all duration-1000 backdrop-blur-[8px]"></div>
+
+    <div
+      id="splashText"
+      class="splah_text flex flex-col absolute top-[-26px] z-[1000] w-full h-[100%] flex justify-center items-center transition-all duration-1000"
+    >
+     <h1 class="heading_font text-center text-[10vw] font-bold text-white">
+  Muhammad Sohail
+</h1>
+<h1 class="heading_font text-center text-[3vw] font-bold text-white">
+ wordpress and shopify developer
+</h1>
+    </div>
+
+    <div id="splashBottom" class="splash_bottom  h-[50%] transition-all duration-1000 backdrop-blur-[8px]"></div>
+
+   
+
+    <!-- Progress Bar -->
+    <div class="progress-bar absolute bottom-10 left-1/2 transform -translate-x-1/2 w-2/3 h-[8px] rounded-full overflow-hidden bg-gray-300"></div>
+  </div>
+
+<div id="mainContent" class="hidden">
   <div class="sh_blackoverlay">
     <img src="assets/images/social-media-expert-4.jpg" class="fixed object-cover z-[-1] !w-full !h-full">
     <header id="mainHeader" class="pt-[40px]">
@@ -622,11 +646,7 @@
       </div>
     </section>
 <section >
-  <!-- <section class="relative overflow-hidden">
-  <div class="sticky-image-wrapper">
-    <img src="assets/images/linkdlen cover.jpg" class="w-full h-auto object-cover" />
-  </div>
-</section> -->
+
 
 </section>
     <section class="py-20 " id="skills" >
@@ -1093,7 +1113,7 @@
       </a>
     </section>
   </div>
-
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="assets/site.js"></script>
