@@ -456,10 +456,14 @@ header.scrolled {
 }
 .splash_screen{
     background-image: url(../assets/images/splash_desktop.png);
+     object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 @media(max-width:768px){
 .splash_screen{
     background-image: url(../assets/images/splash_mobile.png);
+     object-fit: cover;
+    background-repeat: no-repeat;
 }
 }
