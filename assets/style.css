@@ -455,14 +455,14 @@ header.scrolled {
     text-transform: uppercase;
 }
 .splash_screen{
-    background-image: url(https://res.cloudinary.com/datijnnw8/image/upload/v1752658520/splash_desktop_ouaeap.png);
+    background-image: url(https://res.cloudinary.com/datijnnw8/image/upload/v1752658740/splash_desktop_vrsihf.jpg);
      object-fit: cover;
     background-repeat: no-repeat;
 }
 
 @media(max-width:768px){
 .splash_screen{
-    background-image: url(../assets/images/splash_mobile.png);
+    background-image: url(https://res.cloudinary.com/datijnnw8/image/upload/v1752658828/Screenshot_2025-07-16-14-35-38-066-edit_com.android.chrome-min_ir23t5.jpg);
      object-fit: cover;
     background-repeat: no-repeat;
 }
