@@ -454,16 +454,16 @@ header.scrolled {
     font-weight: bold;
     text-transform: uppercase;
 }
-.splash_screen{
-    background-image: url(https://res.cloudinary.com/datijnnw8/image/upload/v1752658740/splash_desktop_vrsihf.jpg);
-     object-fit: cover;
-    background-repeat: no-repeat;
+.splash_screen {
+  background-image: url(https://res.cloudinary.com/datijnnw8/image/upload/v1752658740/splash_desktop_vrsihf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media(max-width:768px){
-.splash_screen{
+@media (max-width: 768px) {
+  .splash_screen {
     background-image: url(https://res.cloudinary.com/datijnnw8/image/upload/v1752658828/Screenshot_2025-07-16-14-35-38-066-edit_com.android.chrome-min_ir23t5.jpg) !important;
-     object-fit: cover;
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
 }
