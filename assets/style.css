@@ -455,7 +455,7 @@ header.scrolled {
     text-transform: uppercase;
 }
 .splash_screen{
-    background-image: url(../assets/images/splash_desktop.png);
+    background-image: url(https://res.cloudinary.com/datijnnw8/image/upload/v1752658520/splash_desktop_ouaeap.png);
      object-fit: cover;
     background-repeat: no-repeat;
 }
