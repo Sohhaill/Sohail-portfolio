@@ -532,7 +532,7 @@ header.scrolled {
   }
 }
 
-header#mainHeader
+.sh_blackoverlay
  {
     overflow: hidden;
 }

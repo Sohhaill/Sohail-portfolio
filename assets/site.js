@@ -41,15 +41,18 @@
     const menu = document.getElementById('mobileMenu');
   const toggle = document.getElementById('menuToggle');
   const close = document.getElementById('closeMenu');
+const bodyscroll = document.body;
 
   toggle.addEventListener('click', () => {
     menu.classList.remove('translate-x-full');
     menu.classList.add('translate-x-0');
+     bodyscroll.classList.add('overflow-hidden'); 
   });
 
   close.addEventListener('click', () => {
     menu.classList.remove('translate-x-0');
     menu.classList.add('translate-x-full');
+   bodyscroll.classList.remove('overflow-hidden'); 
   });
 
 
