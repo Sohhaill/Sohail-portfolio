@@ -176,6 +176,7 @@ window.addEventListener("scroll", function () {
  window.addEventListener('DOMContentLoaded', () => {
     const muhammad = document.getElementById('muhammad');
     const sohail = document.getElementById('sohail');
+     const subtitle = document.getElementById('subtitle');
 
    
     setTimeout(() => {
@@ -186,12 +187,27 @@ window.addEventListener("scroll", function () {
     setTimeout(() => {
       sohail.classList.remove('opacity-0', 'scale-50', 'translate-x-[100vw]');
     }, 500); 
+
+     setTimeout(() => {
+      subtitle.classList.remove('opacity-0', 'translate-y-8');
+    }, 500); 
+
+
+
+
+
+
+
+
+
+
+
      const images = document.querySelectorAll('.company-img');
     images.forEach((img, index) => {
       setTimeout(() => {
         img.classList.remove('opacity-0', 'translate-y-10');
         img.classList.add('opacity-100', 'translate-y-0');
-      }, index * 200); // Stagger each image
+      }, index * 200);
     });
   });
 
