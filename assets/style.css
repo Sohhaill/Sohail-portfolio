@@ -531,3 +531,9 @@ header.scrolled {
     top: calc(100vh - 63px);
   }
 }
+
+header#mainHeader
+ {
+    overflow: hidden;
+}
+

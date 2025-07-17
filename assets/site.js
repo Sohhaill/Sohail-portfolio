@@ -193,9 +193,17 @@ window.addEventListener("scroll", function () {
   });
 
 setTimeout(() => {
-  const subtitle = document.getElementById('subtitle');
-  subtitle.classList.remove('opacity-0', 'translate-y-8');
-}, 900);
+  const shopifyLogo = document.querySelector('.splash_shopify_logo');
+  const wordpressLogo = document.querySelector('.splash_wordpress_logo');
+  const splash_logo = document.querySelector('.splash_logo');
 
-
+  [shopifyLogo, wordpressLogo, splash_logo].forEach(el => {
+    if (el) {
+      el.classList.add('opacity-0');
+      setTimeout(() => {
+        el.classList.add('invisible');
+      }, 1000);
+    }
+  });
+}, 5000);
 
