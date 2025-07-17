@@ -461,9 +461,73 @@ header.scrolled {
 }
 
 @media (max-width: 768px) {
+
   .splash_screen {
     background-image: url(https://res.cloudinary.com/datijnnw8/image/upload/v1752658828/Screenshot_2025-07-16-14-35-38-066-edit_com.android.chrome-min_ir23t5.jpg) !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+  }
+ .splash_shopify_logo {
+ 
+  left: 10px !important;
+   animation: dropToBottomMobile 2.5s ease-out forwards !important;
+  width: 50px !important;
+}
+.splash_wordpress_logo {
+ 
+  right: 10px !important;
+   animation: dropToBottomMobile 2.5s ease-out forwards !important;
+  width: 50px !important;
+}
+.splash_logo{
+  width: 60px !important; 
+}
+}
+.splash_logo {
+    transform: rotate(-15deg);
+}
+@keyframes dropToBottom {
+  0% {
+    top: -150px;
+  }
+  70% {
+    top: calc(100vh - 100px); 
+  }
+  85% {
+    top: calc(100vh - 130px); 
+  }
+  100% {
+    top: calc(100vh - 100px); 
+  }
+}
+
+.splash_shopify_logo {
+  position: absolute;
+  left: 30px;
+  animation: dropToBottom 2.5s ease-out forwards;
+  z-index: 100000;
+  width: 70px;
+}
+.splash_wordpress_logo {
+  position: absolute;
+  right: 30px;
+  animation: dropToBottom 2.5s ease-out forwards;
+  z-index: 100000;
+  width: 70px;
+}
+
+
+@keyframes dropToBottomMobile {
+  0% {
+    top: -150px;
+  }
+  70% {
+    top: calc(100vh - 100px);
+  }
+  85% {
+    top: calc(100vh - 130px);
+  }
+  100% {
+    top: calc(100vh - 63px);
   }
 }
