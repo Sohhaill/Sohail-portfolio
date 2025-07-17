@@ -143,6 +143,32 @@ window.addEventListener("scroll", function () {
   const header = document.getElementById("mainHeader");
   header.classList.toggle("scrolled", window.scrollY > 0);
 });
+ // Digital Counter Logic
+    let percent = 0;
+    const counter = document.getElementById("percentCounter");
+
+    const interval = setInterval(() => {
+      percent++;
+      counter.innerText = percent + "%";
+      if (percent >= 100) clearInterval(interval);
+    }, 30); // 30ms × 100 = ~3s
+
+    // Splash Exit Animations
+    setTimeout(() => {
+      document.getElementById("splashTop").classList.add("animate-up");
+      document.getElementById("splashBottom").classList.add("animate-down");
+      document.getElementById("splashText").classList.add("fade-out");
+    }, 6200);
+
+    // Show Main Content
+    setTimeout(() => {
+      document.querySelector(".splash_screen").style.display = "none";
+      document.getElementById("mainContent").classList.remove("hidden");
+    }, 7100);
+window.addEventListener("scroll", function () {
+  const header = document.getElementById("mainHeader");
+  header.classList.toggle("scrolled", window.scrollY > 0);
+});
 
  window.addEventListener('DOMContentLoaded', () => {
     const muhammad = document.getElementById('muhammad');
@@ -170,5 +196,6 @@ setTimeout(() => {
   const subtitle = document.getElementById('subtitle');
   subtitle.classList.remove('opacity-0', 'translate-y-8');
 }, 900);
+
 
 
