@@ -176,7 +176,7 @@ window.addEventListener("scroll", function () {
  window.addEventListener('DOMContentLoaded', () => {
     const muhammad = document.getElementById('muhammad');
     const sohail = document.getElementById('sohail');
-     const subtitle = document.getElementById('subtitle');
+    
 
    
     setTimeout(() => {
@@ -188,9 +188,10 @@ window.addEventListener("scroll", function () {
       sohail.classList.remove('opacity-0', 'scale-50', 'translate-x-[100vw]');
     }, 500); 
 
-     setTimeout(() => {
-      subtitle.classList.remove('opacity-0', 'translate-y-8');
-    }, 500); 
+    setTimeout(() => {
+  const subtitle = document.getElementById('subtitle');
+  subtitle.classList.remove('opacity-0', 'translate-y-8');
+}, 900);
 
 
 
